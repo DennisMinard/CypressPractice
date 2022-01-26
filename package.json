@@ -1,0 +1,32 @@
+{
+  "name": "cypresspractice",
+  "version": "1.0.0",
+  "description": "Examples of Cypress tests",
+  "main": "index.js",
+  "scripts": {
+    "launchcypress": "./node_modules/.bin/cypress open"
+  },
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^1.8.1",
+    "@bahmutov/cy-api": "^1.6.2",
+    "axe-core": "^4.3.5",
+    "cypress": "^4.12.1",
+    "cypress-axe": "^0.14.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-file-upload": "^4.1.1",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "cypress-downloadfile": "^1.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DennisMinard/CypressPractice.git"
+  },
+  "author": "Dennis Minard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DennisMinard/CypressPractice/issues"
+  },
+  "homepage": "https://github.com/DennisMinard/CypressPractice#readme"
+}
